@@ -1,0 +1,176 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f7fbef;
+}
+
+.space {
+    margin-top: 0;
+    width: 80px;
+    height: 5px;
+    background-color: black;
+}
+
+nav {
+    margin-right: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.card a {
+    padding: 0 20px;
+    width: 100%;
+    text-decoration: 2px black;
+    color: rgb(27, 18, 18);
+}
+
+.card a:hover {
+    border: 1px solid rgb(43, 42, 42);
+    text-decoration: none;
+}
+
+.card a:active {
+    background-color: rgb(37, 24, 24);
+    border: 1px solid black;
+    color: white;
+}
+
+nav a {
+    padding: 0 20px;
+    width: 100%;
+    text-decoration: 2px black;
+    color: rgb(27, 18, 18);
+}
+
+nav a:hover {
+    border: 1px solid rgb(43, 42, 42);
+    text-decoration: none;
+}
+
+nav a:active {
+    background-color: rgb(37, 24, 24);
+    border: 1px solid black;
+    color: white;
+}
+
+.content {
+    margin: 200px 100px;
+}
+
+.content a {
+    margin-right: 10px;
+}
+
+.content a img {
+    width: 30px;
+}
+
+.content a:hover img {
+    width: 32px;
+    border: none;
+}
+
+.content-about {
+    margin: 100px 100px;
+    width: 500px;
+    text-align: left;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-works {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 8px 16px 0 rgba((0), 0, 0, 2);
+    transition: 0.3 s;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.card .container {
+    padding: 2px 16px;
+    width: 200px;
+    height: auto;
+}
+.card img {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+.content-work {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-work .space {
+    margin: auto;
+}
+
+input {
+    width: 300px;
+    margin-top: 0;
+}
+
+.input h5 {
+    margin-right: 200px;
+}
+
+button {
+    background-color: rgb(76, 40, 158);
+    color: white;
+    width: 150px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #001f3f;
+    }
+    100% {
+        background-color: #ebebeb;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.content-hobby {
+    margin: 10px 100px;
+    width: 500px;
+    text-align: left;
+}
+
+.content-hobby a {
+    margin-right: 10px;
+}
+
+.content-hobby a img {
+    width: 40px;
+}
+
+.content-hobby a:hover img {
+    width: 54px;
+    border: none;
+}
+@media screen and (min-width: 1216px) {
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .content-works {
+        width: 400px;
+    }
+
+    #id {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+    }
+
+    .content-about {
+        width: 400px;
+        margin: auto;
+    }
+
+    .content-hobby {
+        margin: 10px 50px;
+        width: 400px;
+        text-align: left;
+    }
+}

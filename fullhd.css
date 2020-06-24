@@ -1,0 +1,23 @@
+@media screen and (min-width: 1408px) {
+    .content-works {
+        width: 800px;
+    }
+    .content-about {
+        width: 800px;
+        margin: auto;
+    }
+
+    #id {
+        text-align: center;
+    }
+
+    nav {
+        position: fixed;
+        background-color: white;
+    }
+    .content-hobby {
+        margin: 10px 50px;
+        width: 800px;
+        text-align: left;
+    }
+}
